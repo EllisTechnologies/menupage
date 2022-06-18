@@ -1,0 +1,29 @@
+article{
+    width: 80%;
+    float: left;
+    padding: auto;
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 0 30px 20px 30px;
+    background-color:whitesmoke;
+}
+div #sidebar{
+    width: 20%;
+    float: right;
+    padding-top: 30px;
+    text-align: start;
+    
+}
+#sidebar nav{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#sidebar a{
+    color: rgb(250, 247, 92);
+    font-size: 25px;
+
+}

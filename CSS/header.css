@@ -1,0 +1,297 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: rgb(241, 243, 245);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+        .header{
+        background-color: rgb(0 16 97);
+        height: 80px;
+        width: 100%;
+    }
+
+    label{
+        padding-left: 0px;
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        font-weight: normal;
+    }
+
+    span{
+        color: gold;
+        font-weight:bolder;
+    }
+
+    i.fa{
+        margin-right: 6px;
+    }
+
+    nav ul{
+        float: left;
+        margin-right: 20px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 20px;
+        padding: 7px 13;
+        margin-right: 10px;
+        border-radius: 3px;
+        text-transform:capitalize;
+    }
+    a.headlink:hover{
+        text-decoration:solid;
+        transition: .5s;
+        font-weight: bolder;
+        color: gold;
+        max-width: 0 10px 0 0px;
+    }
+
+    .current{
+        color: gold;
+        font-weight: bold;
+    }
+
+    .current:hover{
+        text-decoration: underline;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer; 
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+
+    .scrolling{
+        font-weight: bold;
+        background-color: rgb(0 16 97);;
+        font-size: larger;
+        color: #fff;
+    }
+    
+    .three_test{
+        max-width: 40%;
+        float: left;
+        margin: 1.6%;
+     }
+     
+     h3{
+         font-family: initial;
+         font-size:255%;
+         color: rgb(247, 247, 191);
+     }
+     
+     .section{
+         font-family:Arial, Helvetica, sans-serif;
+         font-size: 110%;
+         float:right;
+         padding: 35px 20px 0 0;
+     }
+
+     #mail{
+         font-size: 16px;
+         color: white;
+     }
+     
+     footer{
+         background: rgb(29, 28, 28);
+         opacity: .9;
+         overflow: hidden;
+     }
+     
+     .inner-footer{
+         max-width: 1200px;
+         margin: 0 auto;
+     }
+     
+     footer .three_test{
+         width: 33%;
+         margin: 2% 0;
+     }
+     
+     footer h3{
+         color: rgb(180, 174, 174);
+     }
+     
+     footer P, a{
+         color: rgb(252, 252, 252);
+         text-align: center;
+         text-decoration: none;
+
+     }
+     .p_footer{
+         font-size: 20px;
+     }
+
+    .social{
+        padding: 2% 4%;
+        font-size: 40px;
+    }
+     
+    .social:hover {
+         padding: 0 6%;
+    }
+     
+     #seperate{
+         border-right: 3px solid rgb(248, 248, 246);
+         max-height: 195px;
+         min-height: 195px;
+     }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 2% 4%;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+ 
+  color: rgb(248, 248, 250);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
+  .tooltip:hover{
+    padding: 0 8%;
+  }
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  padding: 0 6%;
+} 
+    .ending{
+             border-top: 1px solid rgb(185, 184, 184);
+             background: rgb(116, 114, 114);
+    }
+     
+    .ending p{
+             text-transform: lowercase;
+    }
+     
+
+    
+    @media (max-width: 1170px){
+        label.logo{
+            font-size: 40px;
+            padding-left: 20px;
+        }
+        .checkbtn{
+            display: block;
+        }
+        ul{
+            position:fixed;
+            width: 100%;
+            height: 100vh;
+            background: #0e0349;
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav ul li a{
+            font-size: 20px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #f5df66;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+    }
+    
+
+    @media (max-width: 952){
+        label.logo{
+            font-size: 20px;
+            padding-left: 40px;
+        }
+        nav ul li a{
+            font-size: 16px;
+        }  
+    }
+
+    @media screen and (max-width:650px) { 
+
+        .three_test{
+            max-width: 100%;
+            margin: 3%;
+        }
+
+        p{
+            text-align: start;
+        }
+    
+        footer .three_test{
+            width:100%;
+        }
+    
+        #seperate{
+            border-bottom: 2px solid rgb(116, 114, 114);
+            
+        }
+        
+        #seperate-last{
+            margin-bottom: 40px;
+        }
+
+        .p_footer{
+            font-size: 21px;
+        }
+    
+        .ending{
+            border-top: 1px solid rgb(185, 184, 184);
+            background: rgb(116, 114, 114);
+        }
+    
+        .ending p{
+            text-transform: lowercase;
+        }
+    
+        .social {
+            padding: 2% 4%;
+        }
+    }
