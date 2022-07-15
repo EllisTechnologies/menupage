@@ -13,24 +13,26 @@
 
 
 .bookslist{
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .activitiesnav{
     width: 100%;
+    border-color: aqua;
+  
 }
 
 div.galleryact {
-  margin: 5px;
   padding: auto;
   float: left;
-  width: 259px;
+  width: 300px;
+  margin: 10px;
 }
 div.galleryact img {
-  width: 100%;
-  height: auto;
+  width: 290px;
+  height: 200px;
 }
 
 
@@ -47,7 +49,7 @@ div.bookgallery {
     opacity:15;
   }
   div.bookgallery img {
-    width: 80%;
+    width: 100%;
     height: auto;
     align-self: center;
   }
