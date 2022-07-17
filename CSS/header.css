@@ -17,6 +17,7 @@
 
         .header{
         background-color: rgb(0 16 97);
+        position: fixed;
         height: 80px;
         width: 100%;
     }
@@ -24,9 +25,10 @@
     label{
         padding-left: 0px;
         color: white;
-        font-size: 35px;
-        line-height: 80px;
+        font-size: 30px;
+        line-height: 20px;
         font-weight: normal;
+        font-family: fantasy;
     }
 
     span{
@@ -86,9 +88,8 @@
     }
 
     .scrolling{
-        font-weight: bold;
         background-color: rgb(0 16 97);;
-        font-size: larger;
+        font-size: medium;
         color: #fff;
     }
     
